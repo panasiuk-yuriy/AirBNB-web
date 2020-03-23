@@ -1,0 +1,43 @@
+.book {
+  width: 330px;
+  padding: 30px;
+  border: 1px solid #e1e7ed;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  &__title {
+    line-height: 19px;
+    margin-bottom: 39px;
+  }
+
+  &__input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e1e7ed;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    padding-left: 17px;
+    line-height: 19px;
+    color: #3d4e61;
+    outline: none;
+  }
+
+  &__button {
+    width: 100%;
+    height: 50px;
+    margin-top: 24px;
+    background: #fd5c63;
+    border-radius: 4px;
+    line-height: 19px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+    transition-duration: 0.3s;
+
+    &:hover {
+      background: #3d4e61;
+    }
+  }
+}

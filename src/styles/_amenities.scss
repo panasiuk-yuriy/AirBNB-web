@@ -1,0 +1,27 @@
+.amenities {
+
+  &__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 21px;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: 180px 180px;
+    grid-template-rows: 28px 28px;
+    grid-column-gap: 19px;
+    grid-row-gap: 13px;
+    margin-bottom: 13px;
+  }
+
+  &__item {
+    line-height: 19px;
+  }
+
+  &__link {
+    line-height: 19px;
+    font-weight: 600;
+    padding: 8px 0;
+  }
+}

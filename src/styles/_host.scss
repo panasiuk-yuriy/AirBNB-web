@@ -1,0 +1,49 @@
+
+.host {
+  grid-row: 4/5;
+  margin-top: 15px;
+
+  &__block {
+    margin-top: 16px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 11px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  &__adress {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__content {
+    line-height: 19px;
+  }
+
+  &__button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #118488;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #118488;
+    font-weight: bold;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #118488;
+      color: white;
+    }
+  }
+}

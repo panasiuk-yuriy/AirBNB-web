@@ -1,0 +1,23 @@
+.column {
+  display: flex;
+  flex-direction: column;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    margin-bottom: 8px;
+  }
+
+  &__title {
+    line-height: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    padding: 3px 0;
+  }
+}
